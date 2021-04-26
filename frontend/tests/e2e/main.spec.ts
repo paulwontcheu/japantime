@@ -1,6 +1,6 @@
 describe("Main", () => {
   it("should display header text", () => {
-    cy.intercept("**//clock-service/japan-time-now", req => {
+    cy.intercept("**/japan-time-now", req => {
       req.reply({
         value: "2021-04-26T05:25:30"
       })

@@ -42,9 +42,9 @@
         setTimeout(() => computeTime(), 1000)
       }
 
-      const fetchJapanTime = async (): string => {
+      const fetchJapanTime = async (): Promise<string> => {
         const response = await axios.get<TimeData>(
-          "http://clock-service/japan-time-now"
+          "http://localhost:80/japan-time-now"
         )
         return response.data.value
       }
