@@ -47,5 +47,24 @@ The source code can be found here: [https://github.com/paulwontcheu/japantime](h
 - execute the command: `docker-compose up`
 - open the browser and navigate to (http://localhost/)
 
+
+#### HOW TO RUN THE TEST
+- BACKEND
+  - run the gradle task "test": `gradle test`
+- FRONTEND  
+  - E2E
+    - move to test/e2e
+    - execute `npm run test`
+  - UNIT TEST
+      - execute this command from the project directory `npm run test`
+    
+- build the jar file with gradle
+    - install gradle (at least version 6.8) if necessary
+    - move to the folder "backend"
+    - gradle bootJar
+- execute the command: `docker-compose up`
+- open the browser and navigate to (http://localhost/)
+
+
 #### Encountered Difficulties
 It took me my sunday to resolve it  :-D. No major issues were encountered.  
