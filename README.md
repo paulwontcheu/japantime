@@ -23,6 +23,7 @@ The source code can be found here: [https://github.com/paulwontcheu/japantime](h
     - Technologies: 
       - SPRING BOOT
       - JUNIT  
+      - GRADLE
     - E2E tested (no unit test done, since the main use case was covered by the e2e tests)      
     - Dockerfile provided
 
@@ -40,6 +41,7 @@ The source code can be found here: [https://github.com/paulwontcheu/japantime](h
 #### HOW TO LAUNCH
 - move the repository root directory
 - build the jar file with gradle
+  - install gradle if necessary
   - move to the folder "backend"
   - gradle bootJar    
 - execute the command: `docker-compose up`
