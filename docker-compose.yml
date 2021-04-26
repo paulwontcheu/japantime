@@ -7,4 +7,4 @@ services:
     depends_on:
       - clock-service
   clock-service:
-    image: japantime:0.0.1
+    build: ./backend
