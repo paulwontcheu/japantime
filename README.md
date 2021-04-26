@@ -39,6 +39,9 @@ The source code can be found here: [https://github.com/paulwontcheu/japantime](h
 
 #### HOW TO LAUNCH
 - move the repository root directory
+- build the jar file with gradle
+  - move to the folder "backend"
+  - gradle bootJar    
 - execute the command: `docker-compose up`
 - open the browser and navigate to (http://localhost/)
 
